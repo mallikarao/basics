@@ -1,0 +1,15 @@
+Copyright	file_cache.h	/^\/\/ Copyright (c) 2013 Nutanix Inc. All rights re/
+Mcache	cache.c	/^int main(int argc, char **argv)$/
+Mcache_copy	cache_copy.c	/^int main(int argc, char **argv)$/
+Mcache_copy2	cache_copy2.c	/^int main(int argc, char **argv)$/
+file_cache	cache.c	/^struct file_cache {$/
+file_cache_construct	cache.c	/^file_cache_construct(int max_cache_entries)$/
+file_cache_destroy	cache.c	/^file_cache_destroy(struct file_cache *cache)$/
+file_cache_file_data	cache.c	/^file_cache_file_data(struct file_cache *cache, con/
+file_cache_mutable_file_data	cache.c	/^file_cache_mutable_file_data(struct file_cache *ca/
+file_cache_pin_files	cache.c	/^file_cache_pin_files(struct file_cache *cache, con/
+file_cache_unpin_files	cache.c	/^file_cache_unpin_files(struct file_cache *cache, c/
+file_entry	cache.c	/^struct file_entry {$/
+get_file_to_cache	cache.c	/^get_file_to_cache(struct file_cache *cache, const /
+print_cache_details	cache_copy.c	/^print_cache_details(struct file_cache *cache)$/
+while	cache_copy.c	/^    \/\/while(cache->farray[i]->dirty == 0) {$/
